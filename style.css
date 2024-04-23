@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+
+.banner{
+    background-color:#090f35;
+    height: 2rem;
+    color: #ffffff;
+    
+}
+box-icon{
+    background-color: #ffffff;
+    height: 1.2rem;
+    margin-top: .3rem;
+}
+
+/* main style  */
+main{
+    background-image: linear-gradient(0deg, rgba(17, 16, 17, 0.658), rgba(5, 5, 5, 0.404)), url(images/bg_1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+}
+/* nav bar  */
+.navbar .navbar-bg{
+    background-color: #fefffe;
+    height: 5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.navbar-brand span{
+    color: #333edc;
+}
+
+.hero{
+    height: 30rem;
+}
+.hero p{
+    color: #bcb9ba;
+    font-size: 1.3rem;
+    margin-left: 2.5rem;
+}
+.hero h1{
+    color: #fefffe;
+    font-weight: 900;
+}
+.btn-size{
+    width: 12%;
+    padding: 1rem;
+    margin-left: .7rem;
+    margin-top: 1rem;
+}
+
+/* card design  */
+.card{
+    background-color: #333edc;
+    height: 15rem;
+    width: 40rem;
+}
+.card-body p{
+    color: #fefffe;
+    width: 100%;
+}
+.card-img-left{
+    background: #333edc;
+    color: #fefffe;
+    height: 1rem;
+}
